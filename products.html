@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products |  Web-BazaaR</title>
+    <link rel="stylesheet" href="shopping.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" width = "125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Contacts</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" width="30px" height="30px">
+            <img src="images/menu.png" class="menu-icon" onclick ="menutoggle()">
+        </div>
+    </div>
+    
+
+    <div class="small-container">
+
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select>
+                <option>Default shorting</option>
+                <option>Short by Price </option>
+                <option>Short by Rating </option>
+                <option>Short by Size </option>
+                <option>Short by Sale </option>
+            </select>
+        </div>
+        
+        <div class="row">
+            <div class="col-4">
+                <a href= "productdetails.html"><img src= "images/product-1.jpg"> </a>
+                
+                <p>Red Printed Tshirt</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <p2>$50.00</p2>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-2.jpg">
+                <h4>Sparks Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <p2>$40.00</p2>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-3.jpg">
+                <h4>Joggers</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                </div>
+                <p2>$80.00</p2>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-4.jpg">
+                <h4>Blue Printed Tshirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <p2>$60.00</p2>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/product-5.jpg">
+                    <h4>Sport Shoes</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o" ></i>
+                    </div>
+                    <p2>$150.00</p2>
+                </div>
+    
+                <div class="col-4">
+                    <img src="images/product-6.jpg">
+                    <h4>Corpp Tshirts</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o" ></i>
+                    </div>
+                    <p2>$80.00</p2>
+                </div>
+    
+                <div class="col-4">
+                    <img src="images/product-7.jpg">
+                    <h4>Sport Socks</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star" ></i>
+                    </div>
+                    <p2>$35.00</p2>
+                </div>
+    
+                <div class="col-4">
+                    <img src="images/product-8.jpg">
+                    <h4>Fossil watch (Royal Black)</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o" ></i>
+                    </div>
+                    <p2>$180.00</p2>
+                </div>       
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/product-9.jpg">
+                    <h4>Analog-Digi Watches</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o" ></i>
+                    </div>
+                    <p2>$70.00</p2>
+                </div>
+    
+                <div class="col-4">
+                    <img src="images/product-10.jpg">
+                    <h4>Party Wear shoes</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o" ></i>
+                    </div>
+                    <p2>$160.00</p2>
+                </div>
+    
+                <div class="col-4">
+                    <img src="images/product-11.jpg">
+                    <h4>Regular shoes(shaded grey)</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star" ></i>
+                    </div>
+                    <p2>$80.00</p2>
+                </div>
+    
+                <div class="col-4">
+                    <img src="images/product-12.jpg">
+                    <h4>Joggers</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o" ></i>
+                    </div>
+                    <p2>$60.00</p2>
+                </div>
+                <br>
+                <div class="page-btn">
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>4</span>
+                    <span>&#8594</span>
+                </div>
+        </div>
+<!--foooter-->
+   <div class="footer">
+       <div class="container">
+           <div class="row">
+               <div class="footer-col-1">
+                   <h3>Download our App</h3>
+                   <p>Download our App for Android and ios mobile</p>
+                   <div class="app-logo">
+                       <img src="images/play-store.png">
+                       <img src="images/app-store.png">
+                   </div>
+               </div>
+               <div class="footer-col-2">
+                   <img src="images/logo-white.png">
+                   <p>Our purpose is to Sustainably make the pleasure and benifits
+                       of The Support Accessible to many.
+                   </p>
+               </div>
+
+               <div class="footer-col-3">
+                   <h3>Usefull links</h3>
+                   <ul>
+                       <li>coupons</li>
+                       <li>Blog Post</li>
+                       <li>Return Policy</li>
+                       <li>Join Affiliate</li>
+                   </ul>
+               </div>
+               <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebok</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+           </div>
+       </div>
+    <hr>
+   <p class="Copyright">Copyright 2021 - Web-BazaaR</p>
+   </div>
+   
+    </div>
+
+<!---js for menu items-->
+ <script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else {
+            MenuItems.style.maxHeight = "0px";
+        }
+        
+    }
+
+ </script>
+    
+</body>
+</html>
